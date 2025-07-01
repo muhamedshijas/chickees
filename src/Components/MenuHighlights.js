@@ -52,7 +52,7 @@ function MenuHighlights() {
                 color: "white",
                 borderRadius: 3,
                 p: 2,
-                height: "100%",
+                height:"650px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
@@ -82,8 +82,8 @@ function MenuHighlights() {
                   sx={{
                     mt: 1,
                     color: "#CCCCCC",
-                    width: "350px",
-                    textAlign: "center",
+                    width: "300px",
+                    fontSize:"18px"
                   }}
                 >
                   {item.description}
