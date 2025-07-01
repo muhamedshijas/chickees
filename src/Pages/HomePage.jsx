@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import HeroBanner from "../Components/HeroBanner";
 import MenuHighlights from "../Components/MenuHighlights";
 import AboutUs from "../Components/AboutUs";
+import UserReview from "../Components/UserReview";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <HeroBanner />
       <MenuHighlights />
       <AboutUs />
+      <UserReview />
     </Box>
   );
 }
