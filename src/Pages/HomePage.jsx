@@ -5,6 +5,7 @@ import HeroBanner from "../Components/HeroBanner";
 import MenuHighlights from "../Components/MenuHighlights";
 import AboutUs from "../Components/AboutUs";
 import UserReview from "../Components/UserReview";
+import CTA from "../Components/CTA";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <MenuHighlights />
       <AboutUs />
       <UserReview />
+      <CTA />
     </Box>
   );
 }
