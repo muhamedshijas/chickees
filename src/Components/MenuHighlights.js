@@ -18,7 +18,7 @@ const highlights = [
       "Crispy, golden, and bursting with flavor — our fried chicken is coated in a secret spiced batter and fried to perfection. Served hot and crunchy, it’s available in combos with fries, dips, buns, and drinks to satisfy all your cravings!",
   },
   {
-    title: "Juicy Burgers",
+    title: "Light Meals",
     image: burger,
     description:
       "Satisfy your hunger fast with our range of stacked burgers, hearty sandwiches, and cool, refreshing juices — all in one delicious section!",
@@ -52,14 +52,16 @@ function MenuHighlights() {
                 color: "white",
                 borderRadius: 3,
                 p: 2,
-                height:"650px",
+                height: "650px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                gap:"20px",
+                gap: "20px",
                 alignItems: "center",
+                transition: "all 0.3s ease", // 💡 Smooth transition
                 "&:hover": {
-                  boxShadow: "0 0 10px #FFFC3C",
+                  boxShadow: "0 0 20px #FFFC3C",
+                  transform: "scale(1.03)", // 💡 Subtle zoom
                 },
               }}
             >
@@ -74,7 +76,10 @@ function MenuHighlights() {
                 }}
               />
               <CardContent sx={{ flexGrow: 1 }}>
-                <Typography variant="h6" sx={{ mt: 2, fontWeight: 600 }}>
+                <Typography
+                  variant="h6"
+                  sx={{ mt: 2, fontWeight: 600, color: "#FFFC3C" }}
+                >
                   {item.title}
                 </Typography>
                 <Typography
@@ -83,7 +88,7 @@ function MenuHighlights() {
                     mt: 1,
                     color: "#CCCCCC",
                     width: "300px",
-                    fontSize:"18px"
+                    fontSize: "18px",
                   }}
                 >
                   {item.description}
