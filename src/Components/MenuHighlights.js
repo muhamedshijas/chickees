@@ -82,7 +82,7 @@ function MenuHighlights() {
                   sx={{
                     mt: 1,
                     color: "#CCCCCC",
-                    width: "400px",
+                    width: "350px",
                     textAlign: "center",
                   }}
                 >
