@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import HeroBanner from "../Components/HeroBanner";
 import MenuHighlights from "../Components/MenuHighlights";
+import AboutUs from "../Components/AboutUs";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <Navbar />
       <HeroBanner />
       <MenuHighlights />
+      <AboutUs />
     </Box>
   );
 }

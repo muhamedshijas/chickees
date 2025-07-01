@@ -6,7 +6,7 @@ function HeroBanner() {
   return (
     <Box
       sx={{
-        background: "linear-gradient(135deg, #3F0000, #000000)",
+        background: "linear-gradient(130deg , #000000,#671515)",
         minHeight: "90vh",
         display: "flex",
         flexDirection: { xs: "column", md: "row" }, // 🔑 Responsive direction
@@ -71,7 +71,7 @@ function HeroBanner() {
             fontWeight: 600,
             width: "200px",
             height: "60px",
-            '&:hover': {
+            "&:hover": {
               backgroundColor: "#e5e126",
             },
           }}
