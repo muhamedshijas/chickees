@@ -6,6 +6,7 @@ import MenuHighlights from "../Components/MenuHighlights";
 import AboutUs from "../Components/AboutUs";
 import UserReview from "../Components/UserReview";
 import CTA from "../Components/CTA";
+import Footer from "../Components/Footer";
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <AboutUs />
       <UserReview />
       <CTA />
+      <Footer />
     </Box>
   );
 }
