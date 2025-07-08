@@ -1,6 +1,6 @@
 import { Box, Typography, Grid } from "@mui/material";
 import React from "react";
-import user from "../assets/images/user.png";
+import user from "../../assets/images/user.png";
 
 function UserReview() {
   const reviews = [

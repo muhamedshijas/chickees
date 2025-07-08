@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Card, Typography, CardContent, Grid } from "@mui/material";
-import shawai from "../assets/images/shawai.jpg";
-import fried from "../assets/images/fried (1).jpg";
-import burger from "../assets/images/burger.jpg";
+import shawai from "../../assets/images/shawai.jpg";
+import fried from "../../assets/images/fried (1).jpg";
+import burger from "../../assets/images/burger.jpg";
 
 const highlights = [
   {

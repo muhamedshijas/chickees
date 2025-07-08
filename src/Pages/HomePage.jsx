@@ -1,12 +1,12 @@
 import { Box } from "@mui/material";
 import React from "react";
 import Navbar from "../Components/Navbar";
-import HeroBanner from "../Components/HeroBanner";
-import MenuHighlights from "../Components/MenuHighlights";
-import AboutUs from "../Components/AboutUs";
-import UserReview from "../Components/UserReview";
-import CTA from "../Components/CTA";
-import Footer from "../Components/Footer";
+import HeroBanner from "../Components/Home/HeroBanner";
+import MenuHighlights from "../Components/Home/MenuHighlights";
+import AboutUs from "../Components/Home/AboutUs";
+import UserReview from "../Components/Home/UserReview";
+import CTA from "../Components/Home/CTA";
+import Footer from "../Components/Home/Footer";
 
 function HomePage() {
   return (

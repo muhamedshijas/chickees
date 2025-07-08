@@ -1,6 +1,6 @@
 import { Box, Button, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
-import cta from "../assets/images/cta.jpg";
+import cta from "../../assets/images/cta.jpg";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CallIcon from "@mui/icons-material/Call";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
